@@ -1,0 +1,233 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background: url("../../image/etch-a-sketch/vaporwave-sunset-wallpaper.jpg");
+    background-size: cover;
+}
+
+header {
+    background-image: url('../../svg/etch-a-sketch-layer.svg');
+    opacity: .9;
+    height: 20vh;
+    padding: 0;
+    margin:0;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    align-items: center;
+    gap: 50px;
+}
+
+.title {
+    font-family: 'Cherry Bomb One', cursive;
+    color: white;
+    font-size: 70px;
+    margin: 0;
+    text-align: center;
+    padding-top: 20px;
+}
+
+
+.container {
+    display: flex;
+    flex-direction: row;
+    max-width: 1100px;
+}
+
+.color-sett {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    margin-top: 10px;
+    margin-bottom: 20px;;
+    margin-left: 30px;
+    border: solid 4px rgb(51, 16, 58);
+    border-radius: 20px 0px 0px 20px;
+    border-right: none;
+}
+
+#base, #bg-color{
+    flex: .5;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    height: 50px;
+    width: 100%;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+#base::-webkit-color-swatch, #bg-color::-webkit-color-swatch {
+    border: solid 3px;
+    border-color: rgb(252, 151, 252);
+    border-radius: 20px;
+}
+
+.cont {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    max-width: 100%;
+    min-width: 0%;
+}
+
+.base.cont {
+    background-color: #6f00ff;
+    border-top-left-radius: 20px;
+}
+
+.bg-color.cont {
+    padding-top: 0px;
+    background-color: #5f00db;
+}
+
+.cont.grid {
+    flex-direction: column;
+    background-color: #31046b;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.btn{
+    width: 100%;
+    background-color: #4d00b3;
+    border-color: #4d00b3;
+    height: 72px;
+    cursor: pointer;
+}
+
+#eraser {
+    background-color: #410096;
+    border-color: #410096;
+}
+
+#light-color {
+    background-color: #350277;
+    border-color: #350277;
+}
+
+#dark-color {
+    background-color: #2c0263;
+    border-color: #2c0263;
+}
+
+#grid-line {
+    background-color: #180136;
+    border-color: #180136;
+}
+
+#clear {
+    background-color: #0b001a;
+    border-color: #0b001a;
+    border-bottom-left-radius: 20px;
+}
+
+
+/* Texts */
+
+.text{
+    flex: 1;
+    font-family: 'Caprasimo', cursive;
+    color: rgb(255, 255, 255);
+    font-size: 40px;
+    padding-left: 15px;
+}
+
+.text.two {
+    font-size: 26px;
+}
+
+.text.three {
+    font-size: 26px;
+    padding: 0;
+}
+
+
+/*
+font-family: 'Cherry Bomb One', cursive;
+font-family: 'Caprasimo', cursive;
+*/
+
+/*Range*/
+
+input[type='range'] {
+    -webkit-appearance: none !important;
+    background:rgb(0, 0, 0);
+    height: 5px;
+    border-radius: 30px;
+}
+input[type='range']::-webkit-slider-thumb {
+    -webkit-appearance: none !important;
+    background:rgb(205, 148, 231);
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+/*etch*/
+
+:root {
+    --height: 600px;
+    --width: 600px;
+    --bgColor: #ffffff;
+}
+
+.etch-cont {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 600px;
+    border: solid 5px rgb(117, 80, 122);
+}
+
+.etch {
+    width: var(--width);
+    height: var(--height);
+    background-color: var(--bgColor);
+    box-shadow: var(--gridLine);
+}
+
+.add-border {
+    position: absolute;
+    border: solid 1px rgb(179, 179, 179);
+}
+
+
+/*Add*/
+
+.highlight {
+    background-color: rgb(207, 151, 205) !important;
+}
+
+/*Make the website undraggable*/
+
+body {
+    user-drag: none;
+    -webkit-user-drag: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+
+@media (max-width: 1200px) {
+    header {
+        display: none;
+    }
+
+    main {
+      flex-direction: column;
+    }
+  }

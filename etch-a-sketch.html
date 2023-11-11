@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caprasimo&family=Cherry+Bomb+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Etch-a-Sketch</title>
+    <link rel="shortcut icon" type="images/png" href="favicon.ico">
+</head>
+<body>
+    <header>
+        <p class="title">Etch A Sketch \(^o^)/</p>
+    </header>
+    <main>
+            <div class="settings">
+                <div class="color-sett">
+                    <div class="base cont">
+                        <input id="base" type="color" name="base" value="#000000">
+                        <h2 class="text">Pen Colour</h2>
+                    </div>
+                    <div class="bg-color cont">
+                        <input id="bg-color" type="color" name="bg-color" value="#FFFFFF">
+                        <h2 class="text two">Background Colour</h2>
+                    </div>
+                    <div class="color-grabber cont">
+                        <button class="btn" id="color-grabber"><span class="text three">Color Grabber</span></button>
+                    </div>
+                    <div class="eraser cont">
+                        <button class="btn" id="eraser"><span class="text three">Eraser</span></button>
+                    </div>
+                    <div class="light-color cont">
+                        <button class="btn" id="light-color"><span class="text three">Lighten Color</span></button>
+                    </div>
+                    <div class="dark-color cont">
+                        <button class="btn" id="dark-color"><span class="text three">Darken Color</span></button>
+                    </div>
+                    <div class="cont grid">
+                        <p id="gridInput" class="text three"><p>
+                        <input id="grid" type="range" name="grid" min="1" max="64" onchange="gridNumSize(this.value);" oninput="gridNumSize(this.value)" value="16" data-sizing="px">
+                    </div>
+                    <div class="cont">
+                        <button class="btn" id="grid-line"><span class="text three">Show Grid Lines</span></button>
+                    </div>
+                    <div class="cont">
+                        <button class="btn" id="clear"><span class="text three">Clear</span></button>
+                    </div>
+                </div>
+            </div>  
+                <div id="etchCont" class="etch-cont">
+
+                </div>
+            </div>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+</html>
