@@ -4,12 +4,12 @@
 }
 
 body {
-    background: url("../../image/etch-a-sketch/vaporwave-sunset-wallpaper.jpg");
+    background: url("vaporwave-sunset-wallpaper.jpg");
     background-size: cover;
 }
 
 header {
-    background-image: url('../../svg/etch-a-sketch-layer.svg');
+    background-image: url('etch-a-sketch-layer.svg');
     opacity: .9;
     height: 20vh;
     padding: 0;
