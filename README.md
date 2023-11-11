@@ -22,3 +22,5 @@ Features:
  - Clear all colors inside the canvas
 
 ![369670147_330354376265527_5706111662078488786_n](https://github.com/sakayanagi011/Etch-As-Sketch/assets/123628072/7a9a3f69-cf5f-46a9-b87b-8a81fdea95f8)
+
+Live Preview: https://sakayanagi011.github.io/Etch-As-Sketch/
