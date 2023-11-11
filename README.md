@@ -1,8 +1,8 @@
-##############################################################################  NOTE  #########################################################################################
+######################### NOTE  ################################
 This is probably my fourth project I've created. It took me a month and a fortnight to finish this project, including the drawing. I really learned a lot from tackling the problems of this project, and I feel huge improvement over the past few days of grinding to learn what I need to learn to build this project. Huge thanks to the OdinProject for giving a roadmap for aspiring web developers to know which part they should first tackle.
 
 Btw. For some reason, if I try to save my drawing, it just gives me a broken state of the website. I will try to fix it some other time if I get motivated :v 
-###############################################################################################################################################################################
+################################################################
 
 Project: ETCH-A-SKETCH
 
