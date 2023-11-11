@@ -21,7 +21,4 @@ Features:
  - Show the grid lines of the canvas
  - Clear all colors inside the canvas
 
-![370314343_206935729102771_8518561191276651822_n](https://github.com/sakayanagi011/Etch-As-Sketch/assets/123628072/627e4219-8016-4ecb-8fe0-62ee62c2ecbd)
-
-
-
+![369670147_330354376265527_5706111662078488786_n](https://github.com/sakayanagi011/Etch-As-Sketch/assets/123628072/7a9a3f69-cf5f-46a9-b87b-8a81fdea95f8)
